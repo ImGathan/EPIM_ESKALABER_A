@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Sedgwick_ad';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_bold';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_regular';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_light';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: 'Irish_gv';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+}
+@font-face {
+    font-family: 'Jockey_one';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg-form.png');
+    background-size: cover;
+    color: white;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+
+
+.bg {
+    width: 1253px;
+    height: 873px;
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg-layout.png');
+
+}
+
+.bg h1 {
+    font-family: 'Jockey_one';
+    font-size: 7rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.form  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form form {
+    margin-bottom: 6rem;
+}
+
+
+.input-box {
+    width: 45rem;
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin-top: 4rem;
+    position: relative;
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #a4a4a4;
+    font-size: 24px;
+    font-family: 'Ubuntu_light';
+}
+
+
+.input-box label {
+    position: absolute;
+    bottom: 1rem;
+    font-family: 'Ubuntu_regular';
+    font-size: 25px;
+    pointer-events: none;
+    transition: .3s ease;
+}
+
+
+.input-box input:focus + label,
+.input-box input:focus + label :not(:placeholder-shown) + label {
+    bottom: 40px;
+};
+
+.btn {
+    position: relative;
+    /* margin-top: 6rem; */
+}
+
+.btn button {
+    width: 230px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 5px 5px 0 0 #ebd6d6;
+    outline: none;
+    border: none;
+    font-family: 'Irish_gv';
+    font-size: 32px;
+    transition: .3s ease;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: #9A0F0F;
+    color: white;
+}

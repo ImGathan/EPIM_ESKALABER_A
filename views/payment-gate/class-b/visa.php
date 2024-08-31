@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/indomaret.css">
+    <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/visa.css">
 </head>
 <body>
     <div class="layout">
@@ -24,14 +24,27 @@
                 </div>
             </div>
             <div class="form">
-                <div class="img">
-
-                    <img src="http://localhost/ESKABALER_A/public/images/indomaret.png" alt="indo" alt="">
-                </div>
-                <div class="kode">
-                    <p>5736926801</p>
-                </div>
-                <p>Go to the nearest Indomaret, then provide <br>the code above to make a transaction</p>
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" name="username" placeholder=" " required>
+                        <label for="">Your Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="num" placeholder=" " required>
+                        <label for="">Card Number</label>
+                    </div>
+                    <div class="line-form">
+                        <div class="input-box">
+                            <input type="text" name="Expiry" placeholder=" " required>
+                            <label for="">Expiry Date</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="CCV" placeholder=" " required>
+                            <label for="">CCV</label>
+                        </div>
+                    </div>
+                    
+                </form>
             </div>
             <div class="btn">
                 <button class="btn1">< BACK</button>

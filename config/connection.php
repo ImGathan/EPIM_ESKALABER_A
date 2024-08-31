@@ -4,8 +4,11 @@ $username = 'root';
 $password = '';
 $db_name = 'backend-epim';
 
-$con = new mysqli($server, $username, $password, $db_name);
 
-if($con->error) {
-    echo 'Error: ' $con->error;
+$connect = new mysqli($server, $username, $password, $db_name);
+
+if($connect->error) {
+    echo 'error'. $connect->error;
+} else {
+    echo "berhasil";
 }
