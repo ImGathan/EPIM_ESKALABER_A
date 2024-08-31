@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://localhost/EPIM_ESKALABER_A/public/css/landingpage.css">
+    <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/landingpage.css">
     <title>Landing page</title>
 </head>
 <body>
@@ -59,21 +59,21 @@
             <p>
             Bring Me the Horizon (BMTH) is a British rock band formed in 2004 in Sheffield. Known for blending metalcore, electronic, and pop, their sound has evolved over the years
             </p>
-            <img src="http://localhost/EPIM_ESKALABER_A/public/images/BMTH LOGO 1.png" alt="">
+            <img src="http://localhost/ESKABALER_A/public/images/BMTH LOGO 1.png" alt="">
             <p style="text-align: end;"> Key albums include **"Sempiternal"** and **"That's the Spirit,"** featuring themes of mental health and personal struggles. With a dedicated fanbase, BMTH is celebrated for their innovative approach to music.</p>
         </div>
         <div class="container-sosmed">
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/ig-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/ig-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/yt-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/yt-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/twiter-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/twiter-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/spotify.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/spotify.png" alt="">
             </div>
         </div>
         <div class="garis">
@@ -86,11 +86,11 @@
     <section class="album">
         <h1>Bmth All Over The World</h1>
         <div class="gallery">
-            <img src="http://localhost/EPIM_ESKALABER_A/public/images/GALLERY.png" alt="">
+            <img src="http://localhost/ESKABALER_A/public/images/GALLERY.png" alt="">
         </div>
     </section>
     <section class="album-rilis">
-        <img src="http://localhost/EPIM_ESKALABER_A/public/images/album.png" alt="">
+        <img src="http://localhost/ESKABALER_A/public/images/album.png" alt="">
         <div class="judul-album-rlis">
             <h1>
             NOW GET READY FOR <span style="font-size: 50px;">BMTH</span> <br> ARRIVAL IN YOUR CITY
@@ -115,7 +115,7 @@
                     </button>
                 </div>
             </div>
-            <img src="http://localhost/EPIM_ESKALABER_A/public/images/albumListenNow.png" alt="">
+            <img src="http://localhost/ESKABALER_A/public/images/albumListenNow.png" alt="">
         </div>
     </section>
     <section class="tour">

@@ -8,34 +8,34 @@ body, html, *{
 
 @font-face {
     font-family: 'Sedgwick ad';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
 }
 @font-face {
     font-family: 'jockey one';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
 }
 @font-face {
     font-family: 'trade winds';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Trade_Winds/TradeWinds-Regular.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Trade_Winds/TradeWinds-Regular.ttf');
 }
 @font-face {
     font-family: 'ubuntu bold';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
 }
 @font-face {
     font-family: 'ubuntu light';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Ubuntu/Ubuntu-Light.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Light.ttf');
 }
 @font-face {
     font-family: 'walter tc';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Walter_Turncoat/WalterTurncoat-Regular.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Walter_Turncoat/WalterTurncoat-Regular.ttf');
 }
 @font-face {
     font-family: 'irish groover';
-    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+    src: url('http://localhost/ESKABALER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
 }
 .banner{
-    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/backgroundHomePage.png');
+    background-image: url('http://localhost/ESKABALER_A/public/images/backgroundHomePage.png');
     height: 120vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body, html, *{
 }
 
 .countdown{
-    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg countdown.jpg');
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg countdown.jpg');
     height: 42vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,7 +209,7 @@ body, html, *{
     
 }
 .album-rilis{
-    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg-albumSec.png');
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg-albumSec.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -309,8 +309,13 @@ body, html, *{
     font-size: 130px;
 }
 .tour{
+<<<<<<< HEAD
     background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg-tour.png');
     /* background-repeat: no-repeat; */
+=======
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg-tour.png');
+    background-repeat: no-repeat;
+>>>>>>> 92fcd8a5c752637a814df5c60d39abeac092e3c9
     background-size: cover;
     padding: 101px;
     /* width: 120%; */
