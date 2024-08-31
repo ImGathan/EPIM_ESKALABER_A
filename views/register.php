@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/register.css">
 </head>
 <body>
-    <form action="../controller/registerController.php" method="POST">
+    <!-- <form action="../controller/registerController.php" method="POST">
         <input type="email" name="email" placeholder="email">
         <input type="password" name="password" placeholder="password" >
         <button type="submit">Register</button>
-    </form> 
+    </form>  -->
 
-    <!-- <div class="layout">
+    <div class="layout">
         <div class="bg">
             <h1>REGISTER</h1>
             <div class="form">
@@ -26,12 +26,12 @@
                         <input type="password" name="password" placeholder=" ">
                         <label for="password">Password</label>
                     </div>
+                    <div class="btn">
+                        <button type="submit">REGISTER</button>
+                    </div>
                 </form>
-                <div class="btn">
-                    <button type="submit">REGISTER</button>
-                </div>
             </div>
         </div>
-    </div> -->
+    </div>
 </body>
 </html>

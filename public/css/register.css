@@ -103,11 +103,18 @@ body {
 };
 
 .btn {
-    position: relative;
-    /* margin-top: 6rem; */
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+    margin-top: 6rem;
     width: 230px;
     height: 60px;
     background-color: #fff;
