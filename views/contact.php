@@ -9,9 +9,25 @@
 <body>
     <div class="layout">
         <div class="bg">
-            <form action="">
-                
-            </form>
+            <h1>CONTACT FORM</h1>
+        <form action="../controller/registerController.php" method="POST">
+                    <div class="input-box">
+                        <input type="text" name="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" placeholder=" " required>
+                        <label for="email"> YOUR email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="message" placeholder=" " required>
+                        <label for="message">Your Name</label>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                </form>
+            
         </div>
     </div>
 </body>
