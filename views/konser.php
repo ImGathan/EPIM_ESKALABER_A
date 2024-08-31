@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konser tiket</title>
-    <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/konser.css">
+    <link rel="stylesheet" href="http://localhost/EPIM_ESKALABER_A/public/css/konser.css">
 </head>
 <body>
     <div class="hero-container">
@@ -34,7 +34,7 @@
     </div>
     
     <div class="stage-container">
-        <img src="http://localhost/ESKABALER_A/public/images/stage-bg.png" alt="">
+        <img src="http://localhost/EPIM_ESKALABER_A/public/images/stage-bg.png" alt="">
     </div>
 
     <section class="ticket-select">
