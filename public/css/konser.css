@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'Sedgwick_ad';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_bold';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_regular';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Irish_gv';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+}
+@font-face {
+    font-family: 'Jockey_one';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+}
+
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.hero-container {
+    width: 100vw;
+    height: 710px;
+    background-image: url(../images/bg-homeTicket.png);
+    padding: 20px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.hero-container .text {
+    width: 640px;
+    padding: 20px;
+}
+
+.hero-container .text h1 {
+    font-family: 'Sedgwick_ad';
+    font-size: 7rem;
+    color: #fff;
+    font-weight: normal;
+}
+
+.hero-container .text h2 {
+    font-family: 'Ubuntu_bold';
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    bottom: 4rem;
+    padding: 20px;
+}
+
+
+.hero-container .home-btn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 53px;
+    background-color: white;
+    box-shadow: 5px 5px 0 0 #ebd6d6;
+    position: relative;
+    left: 2rem;
+    bottom: 4rem;
+    font-size: 25px;
+}
+
+.hero-container .home-btn a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Irish_gv';
+}
+
+.location-container .place h1{
+    font-family: 'Jockey_one';
+    color: #9a0f0f;
+    font-size: 5rem;
+
+}
+
+.location-container .place {
+    padding: 1rem 0 1rem 7rem;
+
+}
+
+.location-container .place h2 {
+    text-align: center;
+    width: 25rem;
+    font-family: 'Irish_gv';
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #9a0f0f;
+    padding: 1.5rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+
+.location-container .place h3 {
+    font-family: 'Ubuntu_bold';
+    color: #9a0f0f;
+    font-size: 30px;
+    position: relative;
+    bottom: 3rem;
+}
+
+.line-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.line-circle .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.line-circle .line {
+    width: 60rem;
+    height: 2px;
+    background-color: #fff;
+}
+
+.stage-container {
+    margin-top: 6rem;
+}
+
+.stage-container img{
+    width: 100vw;
+}
+
+.ticket-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0 7rem 0;
+    gap: 4rem;
+}
+
+.ticket-container {
+    width: 100rem;
+    height: 18rem;
+    border: 3px solid white;
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-container .ticket-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+    align-items: center;
+}
+
+.left h1 {
+    font-family: 'Jockey_one';
+    font-size: 5rem;
+    color: #fff; 
+}
+
+.left .available {
+    font-family: 'Jockey_one';
+    font-size: 25px;
+    width: 20rem;
+    height: 65px;
+    color: #000;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 4.5rem;
+}
+
+.left .available span {
+    font-size: 35px;
+}
+
+.mid {
+    display: flex;
+    gap: 10rem;
+    line-height: 1rem;
+}
+
+.mid h1 {
+    font-family: 'Jockey_one';
+    font-weight: normal;
+    font-size: 40px;
+
+}
+
+.mid p {
+    font-family: 'Ubuntu_regular';
+    font-size: 20px;
+}
+
+.btn-amount {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.btn-amount  button{
+    border: none;
+    outline: none;
+    width: 25px;
+    height: 25px;
+    font-family: 'Jockey_one';
+    color: #000;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-amount span {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    height: 50px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 0 0 #ebd6d6;
+    cursor: pointer;
+}
+
+.right a {
+    text-decoration: none;
+    font-family: 'Irish_gv';
+    color: #000;
+}
+
+.footer {
+    width: 100vw;
+    height: 695px;
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg-footer.png');
+    background-size: cover;
+    margin-top: 5rem;
+}
+
+.footer .layout {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    justify-content: center;
+}
+
+.sosmed {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.sosmed img {
+    box-shadow: 5px 5px 0 0 #ebd6d6;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 20PX 0 20PX 0;
+}
+
+.sosmed img:hover {
+    box-shadow: 5px 5px 0 0 #5f5f5f;
+    background-color: #9a0f0f;
+    cursor: pointer;
+    transition: .3s ease;
+} 
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.about h1 {
+    font-family: 'Sedgwick_ad';
+    font-size: 3.5rem;
+    width: 25rem;
+    font-weight: normal;
+    text-align: right;
+}
+
+.about .contact {
+    display: grid;
+}
+
+.about .contact button {
+    width: 120px;
+    height: 40px;
+    color: #000;
+    font-family: 'Irish_gv';
+    font-size: 1rem;
+    box-shadow: 5px 5px 0 0 #ebd6d6;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.about .contact p {
+    font-family: 'Ubuntu_regular';
+    font-size: 15px;
+    text-align: left;
+    width: 25rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8rem;
+}
+
+
