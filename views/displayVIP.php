@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="http://localhost/EPIM_ESKALABER_A/public/css/display.css">
+    <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/display.css">
 </head>
 <body>
     
@@ -14,7 +14,7 @@
             <p>HERE IS YOUR TICKET</p>
         </div>
         <div class="tiket">
-            <img src="http://localhost/EPIM_ESKALABER_A/public/images/TICKET-VIP.png" alt="">
+            <img src="http://localhost/ESKABALER_A/public/images/TICKET-VIP.png" alt="">
         </div>
         <div class="desk">
             <div class="btn1">

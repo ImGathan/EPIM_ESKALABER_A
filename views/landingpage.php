@@ -208,22 +208,24 @@
         <div class="layout">
         <div class="container-sosmed">
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/ig-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/ig-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/yt-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/yt-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/twiter-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/twiter-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/spotify.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/spotify.png" alt="">
             </div>
         </div>
             <div class="about">
                 <h1>BRING ME THE HORIZON</h1>
                 <div class="contact">
-                    <button>CONTACT</button>
+                    <a href="./contact.php">
+                        <button>CONTACT</button>
+                    </a>
                     <p>IF YOU HAVE ANY QUESTIONS, FEEDBACK, OR SUGGESTIONS, PLEASE CONTACT THE CONTACT FORM LISTED</p>
                 </div>
             </div>
