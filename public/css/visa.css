@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Sedgwick_ad';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_bold';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_regular';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu_light';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: 'Irish_gv';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+}
+@font-face {
+    font-family: 'Jockey_one';
+    src: url('http://localhost/ESKABALER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('http://localhost/ESKABALER_A/public/images/bg-payment-gateway.png');
+    background-size: cover;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0 6rem 0;
+    gap: 10rem;
+    align-items: center;
+}
+
+.pay {
+    display: grid;
+    gap: 3rem;
+}
+
+.pay .metode {
+    width: 40rem;
+    height: 8rem;
+    background-color: white ;
+    display: flex;
+}
+
+
+
+.visa-img {
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+}
+
+.visa-img img {
+    scale: .8;
+}
+.mastercard-img img {
+    scale: .8;
+}
+.indomaret-img img {
+    scale: .8;
+}
+.alfamart-img img {
+    scale: .8;
+}
+
+.mastercard-img {
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ebebeb; */
+}
+.indomaret-img {
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ebebeb; */
+}
+.alfamart-img {
+    width: 10rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ebebeb; */
+}
+
+.pay .form {
+    /* background-color:#bbbbbb9b; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+.form form {
+    background-color: #bbbbbb72;
+    width: 40rem;
+    height: 30rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form .input-box {
+    width: 30rem;
+    height: 50px;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+
+.form .line-form {
+    display: flex;
+    gap: 4rem;
+}
+
+.form .line-form .input-box {
+    width: 13rem;
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin-bottom: 2rem;
+    position: relative;
+} 
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu_light';
+    font-size: 24px;
+    color: #ffffff;
+}
+.input-box label {
+    position: absolute;
+    bottom: 1.5rem;
+    font-family: 'Ubuntu_regular';
+    color: white;
+    font-size: 25px;
+    transition: .3s ease;
+}
+
+    .input-box input:focus + label,
+    .input-box input:focus + label :not(:placeholder-shown) + label {
+        bottom: 50px;
+    };
+
+.btn {
+    display: flex;
+    gap: 4rem;
+}
+
+.btn .btn1 {
+    width: 15rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 0 0 #EBD6D6;
+    font-family: 'Irish_gv';
+    font-size: 20px;
+}
+
+.btn .btn2 {
+    width:22rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #9a0f0f;
+    box-shadow: 5px 5px 0 0 #ad1c1c;
+    font-family: 'Irish_gv';
+    font-size: 18px;
+    color: white;
+    margin-left: 2rem;
+}
+
