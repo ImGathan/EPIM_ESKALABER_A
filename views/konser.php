@@ -150,7 +150,9 @@
             <div class="about">
                 <h1>BRING ME THE HORIZON</h1>
                 <div class="contact">
-                    <button>CONTACT</button>
+                    <a href="./contact.php">
+                        <button>CONTACT</button>
+                    </a>
                     <p>IF YOU HAVE ANY QUESTIONS, FEEDBACK, OR SUGGESTIONS, PLEASE CONTACT THE CONTACT FORM LISTED</p>
                 </div>
             </div>
