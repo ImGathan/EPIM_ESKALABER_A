@@ -1,0 +1,445 @@
+body, html, *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+}
+
+
+@font-face {
+    font-family: 'Sedgwick ad';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'jockey one';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'trade winds';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Trade_Winds/TradeWinds-Regular.ttf');
+}
+@font-face {
+    font-family: 'ubuntu bold';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'ubuntu light';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: 'walter tc';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Walter_Turncoat/WalterTurncoat-Regular.ttf');
+}
+@font-face {
+    font-family: 'irish groover';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+}
+.banner{
+    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/backgroundHomePage.png');
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-left: 140px;
+    gap: 50px;
+}
+
+.container h1{
+    font-size: 170px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 170px;
+    font-family: 'Sedgwick ad';
+}
+
+.container h2{
+    font-size: 30px;
+    font-family: 'ubuntu bold';
+}
+
+.container-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-buy{
+    font-family: 'irish groover';
+    font-size: 30px;
+    width: 240px;
+    height: 87px;
+    background-color: #9A0F0F;
+    border: none;
+    box-shadow: 5px 5px #AD1C1C;
+}
+
+.rm-btn{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px #EBD6D6;
+    font-family: 'irish groover';
+    font-size: 30px;
+    width: 240px;
+    height: 87px;
+    border: none;
+}
+
+.countdown{
+    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg countdown.jpg');
+    height: 42vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.judul-cd h1{
+    font-family: 'jockey one';
+    font-size: 60px;
+    font-weight: normal;
+    text-align: start;
+}
+
+.judul-cd h2{
+    font-family: 'irish groover';
+    color: black;
+    font-size: 30px;
+    height: 56px;
+    width: 242px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.container-cd{
+    display: flex;
+    flex-direction: column;
+}
+.cd{
+    font-family: 'jockey one';
+    color: #9A0F0F;
+    font-weight: 400;
+    font-size: 120px;
+    display: flex;
+    gap: 40px;
+}
+
+.waktu{
+    font-family: 'ubuntu light';
+    font-size: 25px;
+    display: flex;
+    gap: 40px;
+}
+
+.containeroncd{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.about{
+    background-color: #151313 ;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.container-about{
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+    justify-content: center;
+}
+.container-about p{
+    font-size: 25px;
+    font-family: 'walter tc';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sosmed{
+    height: 90px;
+    width: 90px;
+    background: #fff;
+    border-radius: 20px 0 20px 0;
+    box-shadow: 5px 5px #EBD6D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sosmed{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+}
+
+.garis{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 40px;
+   position: relative;
+   right: 30px;
+   padding-top: 70px;
+}
+
+.bulat{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.lurus{
+    height: 4px;
+    background-color: #fff;
+    width: 790px;
+}
+.album{
+    background-color: #151313;
+}
+.album-rilis img{
+    width: 484px;
+    height: 314px;
+    
+}
+.album-rilis{
+    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg-albumSec.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 80vh;
+    padding-top: 150px;
+}
+.album h1{
+    font-family: 'trade winds';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 60px;
+   
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul-album-rlis h1{
+    font-family: 'jockey one';
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.btn-to-contact button{
+    border: none;
+    width: 200px;
+    height: 59px;
+    font-family: 'irish groover';
+    color: black;
+    font-size: 25px;
+    background-color: #fff;
+    box-shadow: 5px 5px #EBD6D6;
+}
+
+.judul-album-rlis p{
+    font-family: 'ubuntu light';
+    font-size: 15px;
+}
+
+.judul-album-rlis{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.pembungkus-nama-album h2{
+    font-family: 'jockey one';
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    text-align: end;
+    position: relative;
+    right: 55px;
+}
+
+.pembungkus-nama-album button{
+    height: 77px;
+    width: 249px;
+    border: none;
+    background-color: black;
+    font-family: 'irish groover';
+    box-shadow: 5px 5px gray;
+    font-size: 30px;
+}
+.new-album{
+    background-color: #151313;
+    height: 90vh;
+    display: flex;                   
+    justify-content: center;
+    align-items: center;
+}
+.cover-album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+    width: 1024px;
+    padding: 0 50px;
+    height: 600px;
+}
+
+.cover-album img{
+    height: 356px;
+    width: 614px;
+}
+
+.title-tour h1{
+    font-family: 'jockey one';
+    color: #9A0F0F;
+    font-weight: 400;
+    font-size: 130px;
+}
+.tour{
+    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg-tour.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.title-tour h2{
+    font-family: 'jockey one';
+    color: black;
+    height: 70px;
+    width: 449px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 35px;
+
+}
+
+.title-tour p{
+    font-family: 'walter tc';
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.title-tour{
+    padding: 80px;
+}
+
+.kota-pertama{
+    display: flex;
+    flex-direction: column;
+}
+
+.kota-pertama h1{
+    font-family: 'jockey one';
+    font-weight: 400;
+    font-size: 130px;
+    color: #9A0F0F;
+}
+
+.kota-pertama h2{
+    font-family: 'irish groover';
+    font-size: 23px;
+    height: 87px;
+    width: 405px;
+    background: #fff;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px ;
+    padding-left: 10px;
+   
+}
+
+.kota-pertama h3{
+    font-family: 'ubuntu bold';
+    color: #9A0F0F;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.garis-jakarta div{
+    height: 4px;
+    width: 400px;
+    background-color: #9A0F0F;
+}
+
+.container-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.btn-t-t button{
+    height: 80px;
+    width: 250px;
+    background-color: #9A0F0F;
+    border: none;
+    box-shadow: 5px 5px #AD1C1C;
+    font-family: 'irish groover';
+    font-size: 30px;
+}
+
+.up{
+    font-family: 'jockey one';
+    font-size: 60px;
+    padding: 90px 50px;
+}
+
+.kt-1 h1{
+    font-family: 'jockey one';
+    font-weight: 400;
+    font-size: 110px;
+    color: #fff;
+}
+
+.kt-1 h2{
+    font-family: 'irish groover';
+    font-size: 20px;
+    height: 87px;
+    width: 405px;
+    background: #fff;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px ;
+    padding-left: 10px;
+}
+
+.kt-1 h3{
+    font-family: 'ubuntu bold';
+    color: #fff;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.garis-kt div{
+    height: 4px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.kanan-kt{
+    font-size: 40px;
+    font-family: 'irish groover';
+    font-weight: 400;
+}
+
+.tour-kt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 40px;
+}
