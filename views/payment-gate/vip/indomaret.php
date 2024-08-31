@@ -11,16 +11,24 @@
         <div class="pay">
             <div class="metode">
                 <div class="visa-img ">
-                    <img src="http://localhost/ESKABALER_A/public/images/Visa.png" alt="visa">
+                    <a href="./visa.php">
+                        <img src="http://localhost/ESKABALER_A/public/images/Visa.png" alt="visa">
+                    </a>
                 </div>
                 <div class="mastercard-img ">
-                    <img src="http://localhost/ESKABALER_A/public/images/mastercard.png" alt="mc">
+                    <a href="./mastercard.php">
+                        <img src="http://localhost/ESKABALER_A/public/images/mastercard.png" alt="mc">
+                    </a>
                 </div>
                 <div class="indomaret-img ">
-                    <img src="http://localhost/ESKABALER_A/public/images/indomaret.png" alt="indo">
+                    <a href="./indomaret.php">
+                        <img src="http://localhost/ESKABALER_A/public/images/indomaret.png" alt="indo">
+                    </a>
                 </div>
                 <div class="alfamart-img ">
-                    <img src="http://localhost/ESKABALER_A/public/images/alfamart.png" alt="alfa">
+                    <a href="./alfamart.php">
+                        <img src="http://localhost/ESKABALER_A/public/images/alfamart.png" alt="alfa">
+                    </a>
                 </div>
             </div>
             <div class="form">
@@ -38,8 +46,8 @@
                 <button class="btn2">CONFIRM PAYMENT</button>
             </div>
         </div>
-        <div class="qr">
+        <!-- <div class="qr">
             <img src="http://localhost/ESKABALER_A/public/images/QR.png" alt="">
-        </div>
+        </div> -->
     </div>
 </html>

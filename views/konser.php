@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="right">
-                <a href="./payment.php">PURCHASE</a>    
+                <a href="./payment-gate/vip/visa.php">PURCHASE</a>    
         </div>
         </div>
     </div>
