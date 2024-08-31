@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bgcontactForm.png');
+   background-size: cover;
+}
+
+.bg{
+    background-image: url('http://localhost/EPIM_ESKALABER_A/public/images/bg-contact.png');
+    width: 1252px;
+    height: 840px;
+   position: relative;
+   top: 70px;
+   left: 350px
+}

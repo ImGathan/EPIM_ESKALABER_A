@@ -8,6 +8,9 @@
 </head>
 <body>
     <section class="banner">
+        <button class="logout">
+            LOGOUT >
+        </button>
         <div class="container">
             <h1>
                 BRING ME <br> THE HORIZON
@@ -51,7 +54,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about-section">
         <div class="container-about">
             <p>
             Bring Me the Horizon (BMTH) is a British rock band formed in 2004 in Sheffield. Known for blending metalcore, electronic, and pop, their sound has evolved over the years
@@ -201,6 +204,36 @@
             </h1>
         </div>
     </section>
+    <section class="footer">
+        <div class="layout">
+        <div class="container-sosmed">
+            <div class="sosmed">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/ig-icon.png" alt="">
+            </div>
+            <div class="sosmed">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/yt-icon.png" alt="">
+            </div>
+            <div class="sosmed">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/twiter-icon.png" alt="">
+            </div>
+            <div class="sosmed">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/spotify.png" alt="">
+            </div>
+        </div>
+            <div class="about">
+                <h1>BRING ME THE HORIZON</h1>
+                <div class="contact">
+                    <button>CONTACT</button>
+                    <p>IF YOU HAVE ANY QUESTIONS, FEEDBACK, OR SUGGESTIONS, PLEASE CONTACT THE CONTACT FORM LISTED</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2024 Bring Me To Horizon Indonesia Tour</p>
+            </div>
+        </div>
+    </section>
+
+    
 </body>
 <script>
     const hariTujuan = new Date('1 OCTOBER, 2024 00:00').getTime();
@@ -210,7 +243,7 @@
         const hari = Math.floor(sisa / (1000 * 60 * 60 * 24));
         const jam = Math.floor((sisa % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const menit = Math.floor((sisa % (1000 * 60 * 60))/(1000 * 60));
-        const detik = Math.floor((sisa % 1000 * 60) / 1000);
+        const detik = Math.floor((sisa % (1000 * 60)) / 1000);
         document.getElementById('hari').innerHTML = hari;
         document.getElementById('jam').innerHTML = jam;
         document.getElementById('menit').innerHTML = menit;

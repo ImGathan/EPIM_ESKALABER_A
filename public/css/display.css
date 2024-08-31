@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Sedgwick ad';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'jockey one';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'trade winds';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Trade_Winds/TradeWinds-Regular.ttf');
+}
+@font-face {
+    font-family: 'ubuntu bold';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'ubuntu light';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: 'walter tc';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Walter_Turncoat/WalterTurncoat-Regular.ttf');
+}
+@font-face {
+    font-family: 'irish groover';
+    src: url('http://localhost/EPIM_ESKALABER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #201717;
+}
+
+.text h1{
+    font-family: 'Jockey one';
+    color: white;
+    font-size: 4.5rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.text p {
+    font-family: 'ubuntu bold';
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.tiket {
+    display: flex;
+    justify-content: center;
+    scale: .8;
+}
+
+.desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 0 0 #ebd6d6;
+    font-family: 'irish groover';
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn2 button {
+    width: 150px;
+    height: 50px;
+    background-color: #9A0F0F;
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 0 0 #AD1C1C;
+    font-family: 'irish groover';
+    color: white;
+    font-size: 23px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.desk p {
+    font-family: 'ubuntu light';
+    color: #a4a4a4;
+    text-align: left;
+    width: 30rem;
+    font-size: 25px;
+    margin-left: 2rem;
+}

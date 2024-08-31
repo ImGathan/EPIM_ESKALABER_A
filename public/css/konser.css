@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'Sedgwick_ad';
-    src: url('http://localhost/ESKABALER_A/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
+    src: url('http://localhost/EPIM/public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf');
 }
 @font-face {
     font-family: 'Ubuntu_bold';
-    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
+    src: url('http://localhost/EPIM/public/fonts/Ubuntu/Ubuntu-Bold.ttf');
 }
 @font-face {
     font-family: 'Ubuntu_regular';
-    src: url('http://localhost/ESKABALER_A/public/fonts/Ubuntu/Ubuntu-Regular.ttf');
+    src: url('http://localhost/EPIM/public/fonts/Ubuntu/Ubuntu-Regular.ttf');
 }
 @font-face {
     font-family: 'Irish_gv';
-    src: url('http://localhost/ESKABALER_A/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
+    src: url('http://localhost/EPIM/public/fonts/Irish_Grover/IrishGrover-Regular.ttf');
 }
 @font-face {
     font-family: 'Jockey_one';
-    src: url('http://localhost/ESKABALER_A/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
+    src: url('http://localhost/EPIM/public/fonts/Jockey_One/JockeyOne-Regular.ttf');
 }
 
  body {
@@ -263,7 +263,7 @@
 .footer {
     width: 100vw;
     height: 695px;
-    background-image: url('http://localhost/ESKABALER_A/public/images/bg-footer.png');
+    background-image: url('http://localhost/EPIM/public/images/bg-footer.png');
     background-size: cover;
     margin-top: 5rem;
 }

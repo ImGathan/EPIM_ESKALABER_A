@@ -142,10 +142,10 @@
     <section class="footer">
         <div class="layout">
             <div class="sosmed">
-                <img src="http://localhost/ESKABALER_A/public/images/ig-icon.png" alt="">
-                <img src="http://localhost/ESKABALER_A/public/images/yt-icon.png" alt="">
-                <img src="http://localhost/ESKABALER_A/public/images/twiter-icon.png" alt="">
-                <img src="http://localhost/ESKABALER_A/public/imageS/spotify.png" alt="">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/ig-icon.png" alt="">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/yt-icon.png" alt="">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/images/twiter-icon.png" alt="">
+                <img src="http://localhost/EPIM_ESKALABER_A/public/imageS/spotify.png" alt="">
             </div>
             <div class="about">
                 <h1>BRING ME THE HORIZON</h1>
