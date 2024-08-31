@@ -208,16 +208,16 @@
         <div class="layout">
         <div class="container-sosmed">
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/ig-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/ig-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/yt-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/yt-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/twiter-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/twiter-icon.png" alt="">
             </div>
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/spotify.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/spotify.png" alt="">
             </div>
         </div>
             <div class="about">

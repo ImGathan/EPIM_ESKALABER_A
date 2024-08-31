@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Konser tiket</title>
-    <link rel="stylesheet" href="http://localhost/EPIM_ESKALABER_A/public/css/konser.css">
+    <link rel="stylesheet" href="http://localhost/ESKABALER_A/public/css/konser.css">
 </head>
 <body>
     <div class="hero-container">
@@ -34,7 +34,7 @@
     </div>
     
     <div class="stage-container">
-        <img src="http://localhost/EPIM_ESKALABER_A/public/images/stage-bg.png" alt="">
+        <img src="http://localhost/ESKABALER_A/public/images/stage-bg.png" alt="">
     </div>
 
     <section class="ticket-select">
@@ -43,7 +43,7 @@
             <div class="left">
                 <h1>CLASS B</h1>
                 <div class="available">
-                    <span>0000 </span>
+                    <span>2000 </span>
                     <p> TICKET AVAILABLE</p>
                     
                 </div>
@@ -56,9 +56,9 @@
                 <div class="amount">
                     <h1>AMOUNT</h1>
                     <div class="btn-amount">
-                        <button>+</button>
-                        <span>1</span>
-                        <button>-</button>
+                        <button id="plus" onClick="plus()">+</button>
+                        <span id="count">1</span>
+                        <button id="minus">-</button>
                     </div>
                 </div>
                 <div class="total-price">
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="right">
-                <a href="./payment.php">PURCHASE</a>    
+            <a href="./payment-gate/class-b/visa.php">PURCHASE</a>    
         </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
             <div class="left">
                 <h1>CLASS A</h1>
                 <div class="available">
-                    <span>0000 </span>
+                    <span>1000 </span>
                     <p> TICKET AVAILABLE</p>
                     
                 </div>
@@ -89,9 +89,9 @@
                 <div class="amount">
                     <h1>AMOUNT</h1>
                     <div class="btn-amount">
-                        <button>+</button>
-                        <span>1</span>
-                        <button>-</button>
+                        <button id="plus" onClick=plus()>+</button>
+                        <span id="count">1</span>
+                        <button id="minus">-</button>
                     </div>
                 </div>
                 <div class="total-price">
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="right">
-                <a href="./payment.php">PURCHASE</a>    
+            <a href="./payment-gate/class_a/visa.php">PURCHASE</a>        
         </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
             <div class="left">
                 <h1>CLASS VIP</h1>
                 <div class="available">
-                    <span>0000 </span>
+                    <span>500 </span>
                     <p> TICKET AVAILABLE</p>
                     
                 </div>
@@ -122,9 +122,9 @@
                 <div class="amount">
                     <h1>AMOUNT</h1>
                     <div class="btn-amount">
-                        <button>+</button>
-                        <span>1</span>
-                        <button>-</button>
+                        <button id="plus" onClick=plus()>+</button>
+                        <span id="count">1</span>
+                        <button id="minus">-</button>
                     </div>
                 </div>
                 <div class="total-price">
@@ -142,10 +142,10 @@
     <section class="footer">
         <div class="layout">
             <div class="sosmed">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/ig-icon.png" alt="">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/yt-icon.png" alt="">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/images/twiter-icon.png" alt="">
-                <img src="http://localhost/EPIM_ESKALABER_A/public/imageS/spotify.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/ig-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/yt-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/images/twiter-icon.png" alt="">
+                <img src="http://localhost/ESKABALER_A/public/imageS/spotify.png" alt="">
             </div>
             <div class="about">
                 <h1>BRING ME THE HORIZON</h1>
@@ -160,5 +160,6 @@
         </div>
     </section>
     
+    <script src="http://localhost/ESKABALER_A/public/js/script.js"></script>
 </body>
 </html>
